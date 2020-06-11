@@ -1,0 +1,826 @@
+2018-12-30 11:04:52.151 +04:00 [Information] Starting web host
+2018-12-30 11:04:57.559 +04:00 [Debug] Assembly Resolver Start; Sources: (2), Includes: (0), Excludes: (8)
+2018-12-30 11:04:57.571 +04:00 [Debug] Assembly Resolver Complete; Assemblies: (2), Time: 2 ms
+2018-12-30 11:04:58.062 +04:00 [Debug] Execute Starter: KickStart.DependencyInjection.DependencyInjectionStarter
+2018-12-30 11:04:58.072 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:04:58.091 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:04:58.097 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:04:58.100 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:04:58.106 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:04:58.112 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:04:58.114 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:04:58.116 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:04:58.118 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:04:58.120 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:04:58.123 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:04:58.125 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:04:58.127 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:04:58.129 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:04:58.139 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:04:58.142 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:04:58.145 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:04:58.164 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:04:58.172 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:04:58.175 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:04:58.178 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:04:58.180 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:04:58.183 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:04:58.185 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:04:58.186 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:04:58.188 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:04:58.190 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:04:58.191 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:04:58.193 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:04:58.195 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:04:58.196 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:04:58.201 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:04:58.202 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:04:58.204 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:04:58.206 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:04:58.207 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:04:58.209 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:04:58.216 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:04:58.219 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:04:58.224 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:04:58.227 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:04:58.230 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:04:58.243 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:04:58.245 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:04:58.249 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:04:58.253 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:04:58.264 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:04:58.270 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:04:58.275 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:04:58.280 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:04:58.285 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:04:58.289 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:04:58.293 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:04:58.296 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:04:58.301 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:04:58.305 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:04:58.309 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:04:58.313 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:04:58.317 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:04:58.320 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:04:58.323 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:04:58.327 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:04:58.330 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:04:58.336 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:04:58.340 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:04:58.347 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:04:58.360 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:04:58.382 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:04:58.386 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:04:58.388 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:04:58.392 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:04:58.395 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:04:58.404 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:04:58.407 +04:00 [Debug] Register Service Module: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:04:58.435 +04:00 [Debug] Assign Kick service provider: Microsoft.Extensions.DependencyInjection.ServiceProvider
+2018-12-30 11:04:58.462 +04:00 [Debug] Completed Starter: KickStart.DependencyInjection.DependencyInjectionStarter, Time: 395 ms
+2018-12-30 11:04:58.468 +04:00 [Debug] Execute Starter: KickStart.AutoMapper.AutoMapperStarter
+2018-12-30 11:04:58.471 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:04:58.473 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.DomainMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.493 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:04:58.496 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.562 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:04:58.621 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.657 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:04:58.665 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.684 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:04:58.685 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.699 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:04:58.702 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.708 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:04:58.722 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.729 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:04:58.734 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.777 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:04:58.784 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.840 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:04:58.843 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.874 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:04:58.877 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.916 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:04:58.917 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.924 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:04:58.926 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.934 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:04:58.936 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.947 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:04:58.952 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.958 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:04:58.961 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.985 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:04:58.989 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:58.997 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:04:59.001 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.009 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:04:59.012 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.019 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:04:59.022 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.035 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:04:59.037 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.043 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:04:59.048 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.056 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:04:59.061 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.072 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:04:59.074 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.095 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:04:59.098 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:04:59.141 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:04:59.143 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:04:59.146 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:04:59.149 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:04:59.154 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:04:59.156 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:04:59.159 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:04:59.161 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:04:59.164 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:04:59.166 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:04:59.168 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:04:59.170 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:04:59.171 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:04:59.172 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:04:59.174 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:04:59.175 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:04:59.177 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:04:59.179 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:04:59.186 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:04:59.190 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:04:59.192 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:04:59.195 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:04:59.198 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:04:59.202 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:04:59.204 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:04:59.986 +04:00 [Debug] Completed Starter: KickStart.AutoMapper.AutoMapperStarter, Time: 1515 ms
+2018-12-30 11:04:59.989 +04:00 [Debug] Execute Starter: KickStart.StartupTask.StartupTaskStarter
+2018-12-30 11:05:00.054 +04:00 [Debug] Completed Starter: KickStart.StartupTask.StartupTaskStarter, Time: 8 ms
+2018-12-30 11:05:01.046 +04:00 [Information] User profile is available. Using '"C:\Users\moises.bas\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-30 11:05:02.691 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.693 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.696 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.699 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.703 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.706 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.709 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.712 +04:00 [Warning] The 'bool' property '"IsCorrect"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.718 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TrainingExam"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.722 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.724 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.727 +04:00 [Warning] The 'bool' property '"IsAgree"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.730 +04:00 [Warning] The 'bool' property '"IsEmailAddressConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.732 +04:00 [Warning] The 'bool' property '"IsGlobalAdministrator"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.735 +04:00 [Warning] The 'bool' property '"IsPhoneNumberConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.737 +04:00 [Warning] The 'bool' property '"LockoutEnabled"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.740 +04:00 [Warning] The 'bool' property '"IsSuccessful"' on entity type '"UserLogin"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:05:02.752 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:05:02.755 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransactionHistory"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:05:02.829 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:05:03.065 +04:00 [Information] Executed DbCommand ("92"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2018-12-30 11:05:03.100 +04:00 [Information] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2018-12-30 11:05:03.558 +04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:44318/  0
+2018-12-30 11:05:03.558 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/  
+2018-12-30 11:05:03.654 +04:00 [Information] Request finished in 92.2489ms 200 
+2018-12-30 11:05:04.072 +04:00 [Information] Request finished in 515.4171ms 404 
+2018-12-30 11:05:07.549 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:05:07.571 +04:00 [Information] Request finished in 21.9038ms 200 text/html
+2018-12-30 11:05:08.588 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger  
+2018-12-30 11:05:08.625 +04:00 [Information] Request finished in 36.3428ms 301 
+2018-12-30 11:05:08.641 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:05:08.644 +04:00 [Information] Request finished in 3.2567ms 200 text/html
+2018-12-30 11:05:08.689 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js  
+2018-12-30 11:05:08.692 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui.css  
+2018-12-30 11:05:08.694 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js  
+2018-12-30 11:05:08.689 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger-ui/theme-flattop.css  
+2018-12-30 11:05:08.742 +04:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2018-12-30 11:05:08.742 +04:00 [Information] Sending file. Request path: '"/swagger-ui/theme-flattop.css"'. Physical path: '"C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.API\wwwroot\swagger-ui\theme-flattop.css"'
+2018-12-30 11:05:08.777 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2018-12-30 11:05:08.783 +04:00 [Information] Request finished in 93.9894ms 200 text/css
+2018-12-30 11:05:08.835 +04:00 [Information] Request finished in 141.4916ms 200 application/javascript
+2018-12-30 11:05:08.783 +04:00 [Information] Request finished in 92.2644ms 200 text/css
+2018-12-30 11:05:08.940 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2018-12-30 11:05:08.949 +04:00 [Information] Request finished in 259.8946ms 200 application/javascript
+2018-12-30 11:05:09.309 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js.map  
+2018-12-30 11:05:09.539 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:05:09.542 +04:00 [Information] Request finished in 233.4172ms 200 text/plain
+2018-12-30 11:05:10.283 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js.map  
+2018-12-30 11:05:10.306 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:05:10.309 +04:00 [Information] Request finished in 26.2516ms 200 text/plain
+2018-12-30 11:05:10.575 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json  
+2018-12-30 11:05:11.167 +04:00 [Information] Request finished in 592.6305ms 200 application/json;charset=utf-8
+2018-12-30 11:05:25.466 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/api/User/getalluser  
+2018-12-30 11:05:25.516 +04:00 [Information] Route matched with "{action = \"GetAllUser\", controller = \"User\"}". Executing action "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)"
+2018-12-30 11:05:25.621 +04:00 [Information] Executing action method "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)" with arguments (["System.Threading.CancellationToken"]) - Validation state: Valid
+2018-12-30 11:05:25.640 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:05:25.940 +04:00 [Error] Error handling request '"UserCommand"': "The Include property lambda expression 'x => {from UserRole y in x.UserRoles where ([y].UserType == 3) select [y] => FirstOrDefault()}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393."
+System.InvalidOperationException: The Include property lambda expression 'x => {from UserRole y in x.UserRoles where ([y].UserType == 3) select [y] => FirstOrDefault()}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.ApplyAllNodes(IExpressionNode node, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass22_0`1.<CompileAsyncQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddAsyncQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQuery[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken)
+   at TrainDTrainorV2.Core.Domain.User.Handlers.UserCommandHandler.ProcessAsync(UserCommand message, CancellationToken cancellationToken) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.Core\Domain\User\Handlers\UserCommandHandler.cs:line 36
+   at TrainDTrainorV2.CommandQuery.Handlers.RequestHandlerBase`2.Handle(TRequest message, CancellationToken cancellationToken) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.CommandQuery\Handlers\RequestHandlerBase.cs:line 29
+2018-12-30 11:05:26.154 +04:00 [Information] Executed action "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)" in 633.4974ms
+2018-12-30 11:05:26.202 +04:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include property lambda expression 'x => {from UserRole y in x.UserRoles where ([y].UserType == 3) select [y] => FirstOrDefault()}' is invalid. The expression should represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, specify an explicitly typed lambda parameter of the target type, E.g. '(Derived d) => d.MyProperty'. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.ResultOperators.Internal.IncludeExpressionNode.CreateResultOperator(ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.ResultOperatorExpressionNodeBase.ApplyNodeSpecificSemantics(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.IntermediateModel.MethodCallExpressionNodeBase.Apply(QueryModel queryModel, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.ApplyAllNodes(IExpressionNode node, ClauseGenerationContext clauseGenerationContext)
+   at Remotion.Linq.Parsing.Structure.QueryParser.GetParsedQuery(Expression expressionTreeRoot)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator.ParseQuery(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass22_0`1.<CompileAsyncQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddAsyncQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQuery[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken)
+   at TrainDTrainorV2.Core.Domain.User.Handlers.UserCommandHandler.ProcessAsync(UserCommand message, CancellationToken cancellationToken) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.Core\Domain\User\Handlers\UserCommandHandler.cs:line 36
+   at TrainDTrainorV2.CommandQuery.Handlers.RequestHandlerBase`2.Handle(TRequest message, CancellationToken cancellationToken) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.CommandQuery\Handlers\RequestHandlerBase.cs:line 29
+   at TrainDTrainorV2.API.Controllers.UserController.GetAllUser(CancellationToken cancellationToken) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.API\Controllers\UserController.cs:line 216
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at TrainDTrainorV2.API.Middleware.JsonExceptionMiddleware.Invoke(HttpContext context) in C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.API\Middleware\JsonExceptionMiddleware.cs:line 47
+2018-12-30 11:05:26.242 +04:00 [Information] Request finished in 775.7098ms 500 application/json
+2018-12-30 11:07:47.229 +04:00 [Information] Starting web host
+2018-12-30 11:07:49.158 +04:00 [Debug] Assembly Resolver Start; Sources: (2), Includes: (0), Excludes: (8)
+2018-12-30 11:07:49.165 +04:00 [Debug] Assembly Resolver Complete; Assemblies: (2), Time: 3 ms
+2018-12-30 11:07:49.571 +04:00 [Debug] Execute Starter: KickStart.DependencyInjection.DependencyInjectionStarter
+2018-12-30 11:07:49.576 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:07:49.578 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:07:49.580 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:07:49.582 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:07:49.584 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:07:49.586 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:07:49.588 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:07:49.589 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:07:49.591 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:07:49.593 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:07:49.595 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:07:49.597 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:07:49.599 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:07:49.601 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:07:49.603 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:07:49.606 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:07:49.608 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:07:49.609 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:07:49.612 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:07:49.614 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:07:49.616 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:07:49.617 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:07:49.619 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:07:49.622 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:07:49.624 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:07:49.626 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:07:49.628 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:07:49.630 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:07:49.633 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:07:49.635 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:07:49.637 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:07:49.639 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:07:49.641 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:07:49.644 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:07:49.647 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:07:49.650 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:07:49.652 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:07:49.655 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:07:49.658 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:07:49.660 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:07:49.662 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:07:49.664 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:07:49.675 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:07:49.678 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:07:49.681 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:07:49.684 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:07:49.691 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:07:49.695 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:07:49.698 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:07:49.701 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:07:49.703 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:07:49.705 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:07:49.709 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:07:49.712 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:07:49.718 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:07:49.723 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:07:49.728 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:07:49.732 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:07:49.736 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:07:49.739 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:07:49.744 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:07:49.747 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:07:49.750 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:07:49.753 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:07:49.757 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:07:49.762 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:07:49.765 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:07:49.769 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:07:49.773 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:07:49.775 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:07:49.779 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:07:49.782 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:07:49.786 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:07:49.788 +04:00 [Debug] Register Service Module: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:07:49.804 +04:00 [Debug] Assign Kick service provider: Microsoft.Extensions.DependencyInjection.ServiceProvider
+2018-12-30 11:07:49.806 +04:00 [Debug] Completed Starter: KickStart.DependencyInjection.DependencyInjectionStarter, Time: 232 ms
+2018-12-30 11:07:49.807 +04:00 [Debug] Execute Starter: KickStart.AutoMapper.AutoMapperStarter
+2018-12-30 11:07:49.809 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:07:49.811 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.DomainMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.826 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:07:49.827 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.872 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:07:49.874 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.891 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:07:49.893 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.907 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:07:49.908 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.919 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:07:49.921 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.925 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:07:49.928 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.933 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:07:49.934 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:49.968 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:07:49.970 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.012 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:07:50.014 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.034 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:07:50.037 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.069 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:07:50.070 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.079 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:07:50.080 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.090 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:07:50.092 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.102 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:07:50.104 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.110 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:07:50.111 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.132 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:07:50.133 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.138 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:07:50.139 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.146 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:07:50.148 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.152 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:07:50.154 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.174 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:07:50.177 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.183 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:07:50.185 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.191 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:07:50.192 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.198 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:07:50.199 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.214 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:07:50.215 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:07:50.246 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:07:50.249 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:07:50.250 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:07:50.252 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:07:50.254 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:07:50.256 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:07:50.257 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:07:50.259 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:07:50.262 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:07:50.263 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:07:50.265 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:07:50.267 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:07:50.269 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:07:50.271 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:07:50.273 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:07:50.275 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:07:50.277 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:07:50.279 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:07:50.280 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:07:50.282 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:07:50.283 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:07:50.285 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:07:50.287 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:07:50.289 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:07:50.291 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:07:50.879 +04:00 [Debug] Completed Starter: KickStart.AutoMapper.AutoMapperStarter, Time: 1071 ms
+2018-12-30 11:07:50.881 +04:00 [Debug] Execute Starter: KickStart.StartupTask.StartupTaskStarter
+2018-12-30 11:07:50.891 +04:00 [Debug] Completed Starter: KickStart.StartupTask.StartupTaskStarter, Time: 7 ms
+2018-12-30 11:07:51.480 +04:00 [Information] User profile is available. Using '"C:\Users\moises.bas\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-30 11:07:52.960 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.962 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.965 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.970 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.973 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.978 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.983 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.984 +04:00 [Warning] The 'bool' property '"IsCorrect"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.986 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TrainingExam"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.987 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.989 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.991 +04:00 [Warning] The 'bool' property '"IsAgree"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:52.996 +04:00 [Warning] The 'bool' property '"IsEmailAddressConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:53.001 +04:00 [Warning] The 'bool' property '"IsGlobalAdministrator"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:53.004 +04:00 [Warning] The 'bool' property '"IsPhoneNumberConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:53.012 +04:00 [Warning] The 'bool' property '"LockoutEnabled"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:53.016 +04:00 [Warning] The 'bool' property '"IsSuccessful"' on entity type '"UserLogin"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:07:53.029 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:07:53.031 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransactionHistory"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:07:53.093 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:07:53.285 +04:00 [Information] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2018-12-30 11:07:53.317 +04:00 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2018-12-30 11:07:53.789 +04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:44318/  0
+2018-12-30 11:07:53.789 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/  
+2018-12-30 11:07:53.838 +04:00 [Information] Request finished in 33.4598ms 200 
+2018-12-30 11:07:54.204 +04:00 [Information] Request finished in 416.7755ms 404 
+2018-12-30 11:08:19.495 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:08:19.529 +04:00 [Information] Request finished in 33.5349ms 200 text/html
+2018-12-30 11:08:20.629 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger  
+2018-12-30 11:08:20.631 +04:00 [Information] Request finished in 2.7997ms 301 
+2018-12-30 11:08:20.635 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:08:20.638 +04:00 [Information] Request finished in 3.2655ms 200 text/html
+2018-12-30 11:08:20.669 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js  
+2018-12-30 11:08:20.683 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui.css  
+2018-12-30 11:08:20.685 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger-ui/theme-flattop.css  
+2018-12-30 11:08:20.686 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js  
+2018-12-30 11:08:20.755 +04:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2018-12-30 11:08:20.764 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2018-12-30 11:08:20.755 +04:00 [Information] Sending file. Request path: '"/swagger-ui/theme-flattop.css"'. Physical path: '"C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.API\wwwroot\swagger-ui\theme-flattop.css"'
+2018-12-30 11:08:20.789 +04:00 [Information] Request finished in 103.5376ms 200 application/javascript
+2018-12-30 11:08:20.789 +04:00 [Information] Request finished in 105.7711ms 200 text/css
+2018-12-30 11:08:20.789 +04:00 [Information] Request finished in 104.4216ms 200 text/css
+2018-12-30 11:08:20.829 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2018-12-30 11:08:20.838 +04:00 [Information] Request finished in 168.8001ms 200 application/javascript
+2018-12-30 11:08:21.255 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js.map  
+2018-12-30 11:08:21.334 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:08:21.335 +04:00 [Information] Request finished in 80.0977ms 200 text/plain
+2018-12-30 11:08:21.776 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js.map  
+2018-12-30 11:08:21.793 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:08:21.795 +04:00 [Information] Request finished in 18.9027ms 200 text/plain
+2018-12-30 11:08:21.965 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json  
+2018-12-30 11:08:22.363 +04:00 [Information] Request finished in 397.4947ms 200 application/json;charset=utf-8
+2018-12-30 11:08:37.324 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/api/User/getalluser  
+2018-12-30 11:08:37.369 +04:00 [Information] Route matched with "{action = \"GetAllUser\", controller = \"User\"}". Executing action "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)"
+2018-12-30 11:08:37.467 +04:00 [Information] Executing action method "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)" with arguments (["System.Threading.CancellationToken"]) - Validation state: Valid
+2018-12-30 11:08:37.486 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:08:37.676 +04:00 [Warning] Collection navigations are only considered null if their parent entity is null. Use '.Any()' to check whether collection navigation '"UserTrainings"' is empty.
+2018-12-30 11:08:37.684 +04:00 [Warning] Query: '"(from TrainingBuildCourseAttendee <generated>_1 in [x].UserTrainings select [<generated>_1].Course)...."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.686 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.689 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<DateTimeOffset>)[<generated>_1].Creat..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.690 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select [<generated>_1].CreatedBy).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.692 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<Guid>)[<generated>_1].Id).FirstOrDefa..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.694 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<Guid>)[<generated>_1].RoleId).FirstOr..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.696 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select [<generated>_1].RowVersion).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.697 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select [<generated>_1].RowVersion).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.700 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<DateTimeOffset>)[<generated>_1].Updat..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.703 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select [<generated>_1].UpdatedBy).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.705 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<Guid>)[<generated>_1].UserId).FirstOr..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.706 +04:00 [Warning] Query: '"(from UserRole <generated>_1 in [x].UserRoles select (Nullable<int>)[<generated>_1].UserType).FirstO..."' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2018-12-30 11:08:37.723 +04:00 [Warning] The Include operation for navigation '"[x].UserTrainings.Course"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-30 11:08:37.725 +04:00 [Warning] The Include operation for navigation '"[x].UserProfiles"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-30 11:08:37.726 +04:00 [Warning] The Include operation for navigation '"[x].UserRoles"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-30 11:08:37.996 +04:00 [Information] Executed DbCommand ("87"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[AccessFailedCount], CASE
+    WHEN [x].[Id] IS NOT NULL
+    THEN (
+        SELECT TOP(1) [t1].[Title]
+        FROM [dbo].[tblTrainingBuildCourseAttendees] AS [t]
+        INNER JOIN (
+            SELECT [t0].*
+            FROM [dbo].[tblTrainingCourses] AS [t0]
+            WHERE [t0].[IsDeleted] = 0
+        ) AS [t1] ON [t].[CourseId] = [t1].[Id]
+        WHERE ([t].[IsDeleted] = 0) AND ([x].[Id] = [t].[AttendeeId])
+    ) ELSE N''
+END AS [Course], [x].[Created], [x].[CreatedBy], [x].[DisplayName], [x].[EmailAddress], [x].[Id], [x].[InviteHash], [x].[IsAgree], [x].[IsEmailAddressConfirmed], [x].[IsGlobalAdministrator], [x].[IsPhoneNumberConfirmed], [x].[LastLogin], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[OTP], [x].[PhoneNumber], [x].[ResetHash], (
+    SELECT TOP(1) [t3].[Created]
+    FROM [dbo].[tblUserRoles] AS [t3]
+    WHERE ([t3].[IsDeleted] = 0) AND ([x].[Id] = [t3].[UserId])
+) AS [Created0], (
+    SELECT TOP(1) [t4].[CreatedBy]
+    FROM [dbo].[tblUserRoles] AS [t4]
+    WHERE ([t4].[IsDeleted] = 0) AND ([x].[Id] = [t4].[UserId])
+) AS [CreatedBy0], (
+    SELECT TOP(1) [t5].[Id]
+    FROM [dbo].[tblUserRoles] AS [t5]
+    WHERE ([t5].[IsDeleted] = 0) AND ([x].[Id] = [t5].[UserId])
+) AS [Id0], (
+    SELECT TOP(1) [t6].[RoleId]
+    FROM [dbo].[tblUserRoles] AS [t6]
+    WHERE ([t6].[IsDeleted] = 0) AND ([x].[Id] = [t6].[UserId])
+) AS [RoleId], CASE
+    WHEN (
+        SELECT TOP(1) [t9].[RowVersion]
+        FROM [dbo].[tblUserRoles] AS [t9]
+        WHERE ([t9].[IsDeleted] = 0) AND ([x].[Id] = [t9].[UserId])
+    ) IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, (
+    SELECT TOP(1) [t11].[RowVersion]
+    FROM [dbo].[tblUserRoles] AS [t11]
+    WHERE ([t11].[IsDeleted] = 0) AND ([x].[Id] = [t11].[UserId])
+), (
+    SELECT TOP(1) [t12].[Updated]
+    FROM [dbo].[tblUserRoles] AS [t12]
+    WHERE ([t12].[IsDeleted] = 0) AND ([x].[Id] = [t12].[UserId])
+) AS [Updated], (
+    SELECT TOP(1) [t13].[UpdatedBy]
+    FROM [dbo].[tblUserRoles] AS [t13]
+    WHERE ([t13].[IsDeleted] = 0) AND ([x].[Id] = [t13].[UserId])
+) AS [UpdatedBy], (
+    SELECT TOP(1) [t14].[UserId]
+    FROM [dbo].[tblUserRoles] AS [t14]
+    WHERE ([t14].[IsDeleted] = 0) AND ([x].[Id] = [t14].[UserId])
+) AS [UserId], (
+    SELECT TOP(1) [t15].[UserType]
+    FROM [dbo].[tblUserRoles] AS [t15]
+    WHERE ([t15].[IsDeleted] = 0) AND ([x].[Id] = [t15].[UserId])
+) AS [UserType], [x].[RowVersion], [x].[Updated] AS [Updated0], [x].[UpdatedBy] AS [UpdatedBy0]
+FROM [dbo].[tblUsers] AS [x]
+WHERE [x].[IsDeleted] = 0"
+2018-12-30 11:08:38.103 +04:00 [Information] Executed DbCommand ("54"ms) [Parameters=["@_outer_Id='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t2].[Id], [t2].[Created], [t2].[CreatedBy], [t2].[IsDeleted], [t2].[RoleId], [t2].[RowVersion], [t2].[Updated], [t2].[UpdatedBy], [t2].[UserId], [t2].[UserType]
+FROM [dbo].[tblUserRoles] AS [t2]
+WHERE ([t2].[IsDeleted] = 0) AND (@_outer_Id = [t2].[UserId])"
+2018-12-30 11:08:38.193 +04:00 [Information] Executed DbCommand ("37"ms) [Parameters=["@_outer_Id='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t2].[Id], [t2].[Created], [t2].[CreatedBy], [t2].[IsDeleted], [t2].[RoleId], [t2].[RowVersion], [t2].[Updated], [t2].[UpdatedBy], [t2].[UserId], [t2].[UserType]
+FROM [dbo].[tblUserRoles] AS [t2]
+WHERE ([t2].[IsDeleted] = 0) AND (@_outer_Id = [t2].[UserId])"
+2018-12-30 11:08:38.232 +04:00 [Information] Executed DbCommand ("36"ms) [Parameters=["@_outer_Id='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t2].[Id], [t2].[Created], [t2].[CreatedBy], [t2].[IsDeleted], [t2].[RoleId], [t2].[RowVersion], [t2].[Updated], [t2].[UpdatedBy], [t2].[UserId], [t2].[UserType]
+FROM [dbo].[tblUserRoles] AS [t2]
+WHERE ([t2].[IsDeleted] = 0) AND (@_outer_Id = [t2].[UserId])"
+2018-12-30 11:08:38.244 +04:00 [Information] Executed action method "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 770.5845ms.
+2018-12-30 11:08:38.257 +04:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`2[[TrainDTrainorV2.CommandQuery.Queries.EntityListResult`1[[TrainDTrainorV2.Core.Domain.Models.UserReadModel, TrainDTrainorV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], TrainDTrainorV2.CommandQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-12-30 11:08:38.280 +04:00 [Information] Executed action "TrainDTrainorV2.API.Controllers.UserController.GetAllUser (TrainDTrainorV2.API)" in 906.617ms
+2018-12-30 11:08:38.284 +04:00 [Information] Request finished in 960.2212ms 200 application/json; charset=utf-8
+2018-12-30 11:36:36.215 +04:00 [Information] Starting web host
+2018-12-30 11:36:38.430 +04:00 [Debug] Assembly Resolver Start; Sources: (2), Includes: (0), Excludes: (8)
+2018-12-30 11:36:38.437 +04:00 [Debug] Assembly Resolver Complete; Assemblies: (2), Time: 2 ms
+2018-12-30 11:36:38.846 +04:00 [Debug] Execute Starter: KickStart.DependencyInjection.DependencyInjectionStarter
+2018-12-30 11:36:38.857 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:36:38.860 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:36:38.863 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:36:38.865 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:36:38.867 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:36:38.869 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:36:38.872 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:36:38.875 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:36:38.877 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:36:38.881 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:36:38.884 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:36:38.886 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:36:38.888 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:36:38.890 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:36:38.893 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:36:38.895 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:36:38.897 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:36:38.899 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:36:38.905 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:36:38.908 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:36:38.911 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:36:38.914 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:36:38.916 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:36:38.919 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:36:38.921 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:36:38.924 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:36:38.926 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:36:38.929 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:36:38.931 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:36:38.933 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:36:38.935 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:36:38.938 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:36:38.940 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:36:38.943 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:36:38.947 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:36:38.949 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:36:38.952 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Utility.UtilityServiceRegistration
+2018-12-30 11:36:38.954 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.CachingServiceRegistration
+2018-12-30 11:36:38.956 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-12-30 11:36:38.958 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.PayFort.PayFortServiceRegistration
+2018-12-30 11:36:38.960 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-12-30 11:36:38.963 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-12-30 11:36:38.977 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.MongoDB.Domain.CourseMaterial.CourseLevelMaterialServiceRegistration
+2018-12-30 11:36:38.980 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-12-30 11:36:38.983 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-12-30 11:36:38.986 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-12-30 11:36:38.995 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserRole.UserRoleServiceRegistration
+2018-12-30 11:36:38.999 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Training.TrainingServiceRegistration
+2018-12-30 11:36:39.003 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingVideos.TrainingVideoServiceRegistration
+2018-12-30 11:36:39.010 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExperience.TrainingExperienceServiceRegistration
+2018-12-30 11:36:39.014 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingExam.TrainingExamServiceRegistration
+2018-12-30 11:36:39.018 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.TrainingBuildServiceRegistration
+2018-12-30 11:36:39.022 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.TrainingBuildCoursesAttendeeRegistration
+2018-12-30 11:36:39.029 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.TrainingAttendeeEvaluationVideo.TrainingAttendeeEvaluationVideoServiceRegistration
+2018-12-30 11:36:39.034 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Payment.PaymentHistoryServiceRegistration
+2018-12-30 11:36:39.041 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.PaymentHistory.PaymentHistoryServiceRegistration
+2018-12-30 11:36:39.046 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Level.LevelServiceRegistration
+2018-12-30 11:36:39.050 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelSubject.LevelSubjectServiceRegistration
+2018-12-30 11:36:39.054 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelQuestion.LevelQuestionServiceRegistration
+2018-12-30 11:36:39.058 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.LevelBestVideo.LevelBestVideoServiceRegistration
+2018-12-30 11:36:39.063 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.JobHistory.JobHistoryServiceRegistration
+2018-12-30 11:36:39.067 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.ExamResult.ExamResultServiceRegistration
+2018-12-30 11:36:39.071 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Education.EducationServiceRegistration
+2018-12-30 11:36:39.074 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Course.CourseServiceRegistration
+2018-12-30 11:36:39.077 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CourseMaterial.CourseMaterialServiceRegistration
+2018-12-30 11:36:39.082 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Role.RoleServiceRegistration
+2018-12-30 11:36:39.085 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Country.CountryServiceRegistration
+2018-12-30 11:36:39.092 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.CommitteeQuestion.CommitteeQuestionServiceRegistration
+2018-12-30 11:36:39.096 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-12-30 11:36:39.099 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.UserProfile.UserProfileServiceRegistration
+2018-12-30 11:36:39.102 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Achievement.AchievementServiceRegistration
+2018-12-30 11:36:39.108 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-12-30 11:36:39.114 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:36:39.117 +04:00 [Debug] Register Service Module: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-12-30 11:36:39.137 +04:00 [Debug] Assign Kick service provider: Microsoft.Extensions.DependencyInjection.ServiceProvider
+2018-12-30 11:36:39.139 +04:00 [Debug] Completed Starter: KickStart.DependencyInjection.DependencyInjectionStarter, Time: 288 ms
+2018-12-30 11:36:39.141 +04:00 [Debug] Execute Starter: KickStart.AutoMapper.AutoMapperStarter
+2018-12-30 11:36:39.144 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:36:39.148 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.DomainMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.164 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:36:39.168 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.220 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:36:39.222 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.249 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:36:39.252 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.270 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:36:39.275 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.289 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:36:39.291 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.301 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:36:39.303 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.309 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:36:39.312 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.343 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:36:39.345 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.393 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:36:39.395 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.416 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:36:39.418 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.460 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:36:39.463 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.473 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:36:39.475 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.484 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:36:39.487 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.497 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:36:39.499 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.505 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:36:39.507 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.526 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:36:39.529 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.534 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:36:39.536 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.540 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:36:39.543 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.550 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:36:39.552 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.566 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:36:39.568 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.573 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:36:39.574 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.584 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:36:39.588 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.595 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:36:39.597 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.617 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:36:39.618 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-12-30 11:36:39.653 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-12-30 11:36:39.662 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-12-30 11:36:39.665 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserRole.Mapping.UserRoleMappingProfile
+2018-12-30 11:36:39.667 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Training.Mapping.TrainingMappingProfile
+2018-12-30 11:36:39.668 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingVideos.Mapping.TrainingVideoMappingProfile
+2018-12-30 11:36:39.670 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingExperience.Mapping.TrainingExperienceMappingProfile
+2018-12-30 11:36:39.671 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourse.Mapping.TrainingBuildCourseMappingProfile
+2018-12-30 11:36:39.673 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.TrainingBuildCourseAttendee.Mapping.TrainingBuildCourseAttendeeMappingProfile
+2018-12-30 11:36:39.674 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Payment.Mapping.PaymentMappingProfile
+2018-12-30 11:36:39.675 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.PaymentHistory.Mapping.PaymentHisotryMappingProfile
+2018-12-30 11:36:39.681 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Level.Mapping.LevelMappingProfile
+2018-12-30 11:36:39.683 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelSubject.Mapping.LevelSubjectMappingProfile
+2018-12-30 11:36:39.686 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelQuestion.Mapping.LevelQuestionMappingProfile
+2018-12-30 11:36:39.688 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.LevelBestVideo.Mapping.LevelBestVideoMappingProfile
+2018-12-30 11:36:39.690 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.JobHistory.Mapping.JobHistoryMappingProfile
+2018-12-30 11:36:39.692 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.ExamResult.Mapping.ExamResultMappingProfile
+2018-12-30 11:36:39.699 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Education.Mapping.EducationMappingProfile
+2018-12-30 11:36:39.703 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.CourseMappingProfile
+2018-12-30 11:36:39.706 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Course.Mapping.ExamResultMappingProfile
+2018-12-30 11:36:39.708 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CourseMaterial.Mapping.CourseMaterialMappingProfile
+2018-12-30 11:36:39.710 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Role.Mapping.CountryMappingProfile
+2018-12-30 11:36:39.713 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Country.Mapping.CountryMappingProfile
+2018-12-30 11:36:39.715 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.CommitteeQuestion.Mapping.CommitteeQuestionMappingProfile
+2018-12-30 11:36:39.717 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.UserProfile.Mapping.UserProfileMappingProfile
+2018-12-30 11:36:39.718 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Achievement.Mapping.AchievementMappingProfile
+2018-12-30 11:36:40.353 +04:00 [Debug] Completed Starter: KickStart.AutoMapper.AutoMapperStarter, Time: 1209 ms
+2018-12-30 11:36:40.357 +04:00 [Debug] Execute Starter: KickStart.StartupTask.StartupTaskStarter
+2018-12-30 11:36:40.368 +04:00 [Debug] Completed Starter: KickStart.StartupTask.StartupTaskStarter, Time: 6 ms
+2018-12-30 11:36:41.358 +04:00 [Information] User profile is available. Using '"C:\Users\moises.bas\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-30 11:36:42.745 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.749 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"EmailDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.751 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.755 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"LevelVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.763 +04:00 [Warning] The 'bool' property '"IsDelivered"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.766 +04:00 [Warning] The 'bool' property '"IsProcessing"' on entity type '"SMSDelivery"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.768 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.770 +04:00 [Warning] The 'bool' property '"IsCorrect"' on entity type '"TraineeExamResult"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.772 +04:00 [Warning] The 'bool' property '"IsActive"' on entity type '"TrainingExam"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.774 +04:00 [Warning] The 'bool' property '"IsDesktop"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.776 +04:00 [Warning] The 'bool' property '"IsMobile"' on entity type '"TrainingVideo"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.779 +04:00 [Warning] The 'bool' property '"IsAgree"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.781 +04:00 [Warning] The 'bool' property '"IsEmailAddressConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.783 +04:00 [Warning] The 'bool' property '"IsGlobalAdministrator"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.785 +04:00 [Warning] The 'bool' property '"IsPhoneNumberConfirmed"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.787 +04:00 [Warning] The 'bool' property '"LockoutEnabled"' on entity type '"User"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.790 +04:00 [Warning] The 'bool' property '"IsSuccessful"' on entity type '"UserLogin"' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2018-12-30 11:36:42.800 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransaction"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:36:42.804 +04:00 [Warning] No type was specified for the decimal column '"Amount"' on entity type '"PaymentTransactionHistory"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2018-12-30 11:36:42.869 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:36:43.052 +04:00 [Information] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2018-12-30 11:36:43.090 +04:00 [Information] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2018-12-30 11:36:43.409 +04:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:44318/  0
+2018-12-30 11:36:43.409 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/  
+2018-12-30 11:36:43.506 +04:00 [Information] Request finished in 83.93ms 200 
+2018-12-30 11:36:43.924 +04:00 [Information] Request finished in 515.8254ms 404 
+2018-12-30 11:36:46.693 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:36:46.730 +04:00 [Information] Request finished in 36.6842ms 200 text/html
+2018-12-30 11:36:47.859 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger  
+2018-12-30 11:36:47.862 +04:00 [Information] Request finished in 3.8237ms 301 
+2018-12-30 11:36:47.874 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/index.html  
+2018-12-30 11:36:47.879 +04:00 [Information] Request finished in 4.7744ms 200 text/html
+2018-12-30 11:36:47.928 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js  
+2018-12-30 11:36:47.930 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger-ui/theme-flattop.css  
+2018-12-30 11:36:47.928 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js  
+2018-12-30 11:36:47.928 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui.css  
+2018-12-30 11:36:48.003 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2018-12-30 11:36:48.003 +04:00 [Information] Sending file. Request path: '"/swagger-ui/theme-flattop.css"'. Physical path: '"C:\Users\moises.bas\source\repos\TrainDTrainorV2\API\TrainDTrainorV2.API\wwwroot\swagger-ui\theme-flattop.css"'
+2018-12-30 11:36:48.009 +04:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2018-12-30 11:36:48.138 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2018-12-30 11:36:48.162 +04:00 [Information] Request finished in 232.1485ms 200 text/css
+2018-12-30 11:36:48.168 +04:00 [Information] Request finished in 240.0144ms 200 text/css
+2018-12-30 11:36:48.168 +04:00 [Information] Request finished in 240.0144ms 200 application/javascript
+2018-12-30 11:36:48.168 +04:00 [Information] Request finished in 240.0369ms 200 application/javascript
+2018-12-30 11:36:48.637 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-bundle.js.map  
+2018-12-30 11:36:48.806 +04:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:36:48.811 +04:00 [Information] Request finished in 173.8816ms 200 text/plain
+2018-12-30 11:36:49.550 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/swagger-ui-standalone-preset.js.map  
+2018-12-30 11:36:49.564 +04:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"'
+2018-12-30 11:36:49.566 +04:00 [Information] Request finished in 15.9326ms 200 text/plain
+2018-12-30 11:36:49.797 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/swagger/v1/swagger.json  
+2018-12-30 11:36:50.319 +04:00 [Information] Request finished in 522.157ms 200 application/json;charset=utf-8
+2018-12-30 11:37:10.052 +04:00 [Information] Request starting HTTP/1.1 GET http://localhost:44318/api/country/GetAll  
+2018-12-30 11:37:10.099 +04:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Country\"}". Executing action "TrainDTrainorV2.API.Controllers.CountryController.GetAll (TrainDTrainorV2.API)"
+2018-12-30 11:37:10.175 +04:00 [Information] Executing action method "TrainDTrainorV2.API.Controllers.CountryController.GetAll (TrainDTrainorV2.API)" with arguments (["System.Threading.CancellationToken"]) - Validation state: Valid
+2018-12-30 11:37:10.226 +04:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"TrainDTrainorContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-30 11:37:10.445 +04:00 [Information] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [dbo].[tblCountry] AS [x]
+WHERE [x].[IsDeleted] = 0"
+2018-12-30 11:37:10.509 +04:00 [Warning] Query: '"(from Country x in DbSet<Country> where bool string [x].Name.ToUpper().Contains(\"\") select new Count..."' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-12-30 11:37:10.595 +04:00 [Information] Executed DbCommand ("57"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Code], [x].[Created], [x].[CreatedBy], [x].[Id], [x].[Name], [x].[RowVersion], [x].[Updated], [x].[UpdatedBy]
+FROM [dbo].[tblCountry] AS [x]
+WHERE [x].[IsDeleted] = 0
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+2018-12-30 11:37:10.635 +04:00 [Information] Executed action method "TrainDTrainorV2.API.Controllers.CountryController.GetAll (TrainDTrainorV2.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 453.2757ms.
+2018-12-30 11:37:10.649 +04:00 [Information] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`2[[TrainDTrainorV2.CommandQuery.Queries.EntityListResult`1[[TrainDTrainorV2.Core.Domain.Country.Models.CountryReadModel, TrainDTrainorV2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], TrainDTrainorV2.CommandQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2018-12-30 11:37:10.669 +04:00 [Information] Executed action "TrainDTrainorV2.API.Controllers.CountryController.GetAll (TrainDTrainorV2.API)" in 565.4863ms
+2018-12-30 11:37:10.672 +04:00 [Information] Request finished in 620.4023ms 200 application/json; charset=utf-8

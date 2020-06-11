@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TrainDTrainorV2.CommandQuery.Definitions
+{
+    public interface ICreateDirParams
+    {
+        string Name { get; set; }
+        string ParentPath { get; set; }
+    }
+}

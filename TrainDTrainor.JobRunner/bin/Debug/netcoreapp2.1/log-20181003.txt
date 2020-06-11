@@ -1,0 +1,86 @@
+2018-10-03 11:28:43.893 +04:00 [Information] Starting JobRunner host
+2018-10-03 11:29:04.492 +04:00 [Fatal] Host terminated unexpectedly
+System.IO.FileNotFoundException: The configuration file 'appsettings.json' was not found and is not optional. The physical path is 'G:\TrainDTrainorV2\TrainDTrainor.JobRunner\bin\Debug\netcoreapp2.1\appsettings.json'.
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at TrainDTrainor.JobRunner.Program.Main(String[] args) in G:\TrainDTrainorV2\TrainDTrainor.JobRunner\Program.cs:line 37
+2018-10-03 11:32:23.592 +04:00 [Information] Starting JobRunner host
+2018-10-03 11:34:51.036 +04:00 [Information] Starting JobRunner host
+2018-10-03 11:35:00.759 +04:00 [Debug] Assembly Resolver Start; Sources: (1), Includes: (0), Excludes: (8)
+2018-10-03 11:35:00.766 +04:00 [Debug] Assembly Resolver Complete; Assemblies: (1), Time: 1 ms
+2018-10-03 11:35:00.947 +04:00 [Debug] Execute Starter: KickStart.DependencyInjection.DependencyInjectionStarter
+2018-10-03 11:35:00.952 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-10-03 11:35:00.954 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-10-03 11:35:00.957 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-10-03 11:35:00.959 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-10-03 11:35:00.961 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-10-03 11:35:00.962 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-10-03 11:35:00.965 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-10-03 11:35:00.968 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-10-03 11:35:00.970 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Services.RegisterServiceModule
+2018-10-03 11:35:00.972 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Security.SecurityServiceModule
+2018-10-03 11:35:00.975 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Options.ConfigurationServiceModule
+2018-10-03 11:35:00.997 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MapperServiceModule
+2018-10-03 11:35:01.000 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.MediatorServiceModule
+2018-10-03 11:35:01.004 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.User.UserServiceRegistration
+2018-10-03 11:35:01.011 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Domain.Authentication.AuthenticationServiceRegistration
+2018-10-03 11:35:01.013 +04:00 [Debug] Register DependencyInjection Module: TrainDTrainorV2.Core.Data.DataServiceModule
+2018-10-03 11:35:01.036 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-10-03 11:35:01.038 +04:00 [Debug] Register Service Module: TrainDTrainorV2.Core.Domain.ValidationServiceModule
+2018-10-03 11:35:01.056 +04:00 [Debug] Assign Kick service provider: Microsoft.Extensions.DependencyInjection.ServiceProvider
+2018-10-03 11:35:01.058 +04:00 [Debug] Completed Starter: KickStart.DependencyInjection.DependencyInjectionStarter, Time: 108 ms
+2018-10-03 11:35:01.060 +04:00 [Debug] Execute Starter: KickStart.AutoMapper.AutoMapperStarter
+2018-10-03 11:35:01.062 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-10-03 11:35:01.064 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.DomainMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-10-03 11:35:01.079 +04:00 [Debug] Create Instance: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-10-03 11:35:01.080 +04:00 [Debug] Create 'TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile' from service provider 'Microsoft.Extensions.DependencyInjection.ServiceProvider'
+2018-10-03 11:35:01.110 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.DomainMappingProfile
+2018-10-03 11:35:01.112 +04:00 [Debug] AutoMapper Profile: TrainDTrainorV2.Core.Domain.Mapping.UserMappingProfile
+2018-10-03 11:35:01.340 +04:00 [Debug] Completed Starter: KickStart.AutoMapper.AutoMapperStarter, Time: 278 ms
+2018-10-03 11:35:01.342 +04:00 [Debug] Execute Starter: KickStart.StartupTask.StartupTaskStarter
+2018-10-03 11:35:01.349 +04:00 [Debug] Completed Starter: KickStart.StartupTask.StartupTaskStarter, Time: 4 ms
+2018-10-03 11:35:11.039 +04:00 [Information] Start installing Hangfire SQL objects...
+2018-10-03 11:35:11.363 +04:00 [Information] Hangfire SQL objects installed.
+2018-10-03 11:35:14.954 +04:00 [Information] Starting Hangfire Server
+2018-10-03 11:35:14.961 +04:00 [Information] Using job storage: 'SQL Server: .@TrainDTrainor'
+2018-10-03 11:35:14.965 +04:00 [Information] Using the following options for SQL Server job storage:
+2018-10-03 11:35:14.969 +04:00 [Information]     Queue poll interval: 00:00:15.
+2018-10-03 11:35:14.972 +04:00 [Information] Using the following options for Hangfire Server:
+2018-10-03 11:35:14.975 +04:00 [Information]     Worker count: 20
+2018-10-03 11:35:14.978 +04:00 [Information]     Listening queues: 'default'
+2018-10-03 11:35:14.984 +04:00 [Information]     Shutdown timeout: 00:00:15
+2018-10-03 11:35:14.986 +04:00 [Information]     Schedule polling interval: 00:00:15
+2018-10-03 11:35:17.766 +04:00 [Debug] Background process 'BackgroundProcessingServer' started.
+2018-10-03 11:35:18.122 +04:00 [Debug] Background process 'ServerHeartbeat' started.
+2018-10-03 11:35:18.156 +04:00 [Debug] Background process 'ServerWatchdog' started.
+2018-10-03 11:35:18.185 +04:00 [Debug] Background process 'Hangfire.SqlServer.ExpirationManager' started.
+2018-10-03 11:35:18.247 +04:00 [Debug] Background process 'Hangfire.SqlServer.CountersAggregator' started.
+2018-10-03 11:35:18.256 +04:00 [Debug] Background process 'Worker #89c62123' started.
+2018-10-03 11:35:18.274 +04:00 [Debug] Background process 'Worker #7ad419b3' started.
+2018-10-03 11:35:18.276 +04:00 [Debug] Removing outdated records from the 'AggregatedCounter' table...
+2018-10-03 11:35:18.276 +04:00 [Debug] Aggregating records in 'Counter' table...
+2018-10-03 11:35:18.298 +04:00 [Debug] Background process 'Worker #53dac4e5' started.
+2018-10-03 11:35:18.323 +04:00 [Debug] Background process 'Worker #1120ee6b' started.
+2018-10-03 11:35:18.339 +04:00 [Debug] Background process 'Worker #de70bd3b' started.
+2018-10-03 11:35:18.366 +04:00 [Debug] Background process 'Worker #ef2ad796' started.
+2018-10-03 11:35:18.425 +04:00 [Debug] Background process 'Worker #5fb32fdd' started.
+2018-10-03 11:35:18.461 +04:00 [Debug] Background process 'Worker #eb5d0402' started.
+2018-10-03 11:35:18.507 +04:00 [Debug] Background process 'Worker #ceaa8642' started.
+2018-10-03 11:35:18.542 +04:00 [Debug] Removing outdated records from the 'Job' table...
+2018-10-03 11:35:18.564 +04:00 [Debug] Background process 'Worker #a9e82938' started.
+2018-10-03 11:35:18.579 +04:00 [Debug] Background process 'Worker #95ae76c3' started.
+2018-10-03 11:35:18.610 +04:00 [Debug] Background process 'Worker #d8c70513' started.
+2018-10-03 11:35:18.661 +04:00 [Debug] Background process 'Worker #564fb072' started.
+2018-10-03 11:35:18.689 +04:00 [Debug] Background process 'Worker #f9d00286' started.
+2018-10-03 11:35:18.773 +04:00 [Debug] Background process 'Worker #1c8c2613' started.
+2018-10-03 11:35:18.793 +04:00 [Debug] Background process 'Worker #90817331' started.
+2018-10-03 11:35:18.837 +04:00 [Debug] Removing outdated records from the 'List' table...
+2018-10-03 11:35:18.880 +04:00 [Debug] Background process 'Worker #54f963b4' started.
+2018-10-03 11:35:18.968 +04:00 [Debug] Background process 'Worker #a8af5f27' started.
+2018-10-03 11:35:18.979 +04:00 [Debug] Background process 'Worker #c340276b' started.
+2018-10-03 11:35:19.102 +04:00 [Debug] Removing outdated records from the 'Set' table...
+2018-10-03 11:35:19.154 +04:00 [Debug] Background process 'Worker #9c01bfce' started.
+2018-10-03 11:35:19.168 +04:00 [Debug] Background process 'DelayedJobScheduler' started.
+2018-10-03 11:35:19.211 +04:00 [Debug] Background process 'RecurringJobScheduler' started.
+2018-10-03 11:35:19.312 +04:00 [Debug] Removing outdated records from the 'Hash' table...

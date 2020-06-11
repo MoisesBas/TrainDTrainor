@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="EFCore.BulkExtensions" Version="2.1.9" />
+    <PackageReference Include="FluentValidation" Version="8.0.100" />
+    <PackageReference Include="Handlebars.Net" Version="1.9.5" />
+    <PackageReference Include="Hangfire" Version="1.6.20" />
+    <PackageReference Include="Hangfire.Core" Version="1.6.20" />
+    <PackageReference Include="KickStart.DependencyInjection" Version="6.2.0.122" />
+    <PackageReference Include="MailKit" Version="2.0.6" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.UnitOfWork" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.4" />
+    <PackageReference Include="MimeMapping" Version="1.0.1.12" />
+    <PackageReference Include="MongoDB.Driver" Version="2.7.0" />
+    <PackageReference Include="MongoDB.Driver.GridFS" Version="2.7.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+    <PackageReference Include="UAParser" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrainDTrainorV2.CommandQuery\TrainDTrainorV2.CommandQuery.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Achievement\Command\" />
+    <Folder Include="Domain\Achievement\Handler\" />
+    <Folder Include="Domain\CommitteeQuestion\Commands\" />
+    <Folder Include="Domain\CommitteeQuestion\Handlers\" />
+    <Folder Include="Domain\LevelQuestion\Commands\" />
+    <Folder Include="Domain\LevelQuestion\Handlers\" />
+    <Folder Include="Domain\LevelSubject\Commands\" />
+    <Folder Include="Domain\LevelSubject\Handlers\" />
+    <Folder Include="Domain\Country\Commands\" />
+    <Folder Include="Domain\Country\Handlers\" />
+    <Folder Include="Domain\PaymentHistory\Commands\" />
+    <Folder Include="Domain\PaymentHistory\Handlers\" />
+    <Folder Include="Domain\Role\Commands\" />
+    <Folder Include="Domain\Role\Handlers\" />
+    <Folder Include="Domain\TrainingAttendeeEvaluation\Commands\" />
+    <Folder Include="Domain\TrainingAttendeeEvaluation\Handlers\" />
+    <Folder Include="Domain\TrainingAttendeeEvaluation\Mapping\" />
+    <Folder Include="Domain\TrainingAttendeeEvaluation\Models\" />
+    <Folder Include="Domain\TrainingAttendeeEvaluation\Validation\" />
+    <Folder Include="Domain\TrainingExam\Commands\" />
+    <Folder Include="Domain\TrainingExam\Handlers\" />
+    <Folder Include="Domain\UserProfileAchievement\Mapping\" />
+    <Folder Include="Domain\UserProfileAchievement\Models\" />
+    <Folder Include="Domain\UserProfileAchievement\Validation\" />
+    <Folder Include="MongoDB\Domain\CourseLevelVideo\" />
+    <Folder Include="MongoDB\Domain\MarketingVideo\" />
+    <Folder Include="MongoDB\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

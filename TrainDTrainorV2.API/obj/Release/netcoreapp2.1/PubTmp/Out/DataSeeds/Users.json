@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "14687407-E3E8-E811-9D73-F8DA0C540EE6",
+    "EmailAddress": "training@mobadrah.ae",
+    "IsEmailAddressConfirmed": 0,
+    "PhoneNumber": 971503797569,
+    "IsPhoneNumberConfirmed": 1,
+    "DisplayName": "Administrator",
+    "PasswordHash": "AQAAAAEAACcQAAAAEK2T50NnIqYgt8qKHclCBcRxYmXfcfVAhs8y7xvu/MU6PdUcV5YLlD/wJeI2v3TPFA==",
+    "ResetHash": "NULL",
+    "InviteHash": "NULL",
+    "AccessFailedCount": 0,
+    "LockoutEnabled": 0,   
+    "LastLogin": "2018-11-15 14:30:47.0360408 +00:00",
+    "IsDeleted": 0,
+    "IsGlobalAdministrator": 0,
+    "IsAgree": 0,
+    "OTP": 3188,
+    "Created": "2018-11-15 14:30:42.3327213 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 14:31:50.8072070 +00:00",
+    "UpdatedBy": "NULL"    
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+
+    "Id": "98fb390f-cbf3-e811-9d80-f8da0c540ee6",
+    "Title": "Level 01",
+    "Description": "Level Description 01",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  },
+  {
+
+    "Id": "a0d5d25c-5ef6-e811-9d80-f8da0c540ee6",
+    "Title": "Level 02",
+    "Description": "Level Description 02",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  },
+  {
+
+    "Id": "7660e66c-5ef6-e811-9d80-f8da0c540ee6",
+    "Title": "Level 03",
+    "Description": "Level Description 03",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  },
+  {
+
+    "Id": "4d45597c-5ef6-e811-9d80-f8da0c540ee6",
+    "Title": "Level 04",
+    "Description": "Level Description 04",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  },
+  {
+
+    "Id": "a542a38f-5ef6-e811-9d80-f8da0c540ee6",
+    "Title": "Level 05",
+    "Description": "Level Description 05",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  },
+  {
+
+    "Id": "0948319f-5ef6-e811-9d80-f8da0c540ee6",
+    "Title": "Level 06",
+    "Description": "Level Description 06",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "Administrator",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "Administrator",
+    "TrainingId": "c9f23224-8ced-e811-9d74-f8da0c540ee6"
+  }
+
+]

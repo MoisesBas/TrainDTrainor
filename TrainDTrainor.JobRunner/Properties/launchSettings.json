@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TrainDTrainorV2.JobRunner": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "WEBJOBS_SHUTDOWN_FILE": "E\\shutdown.txt"
+      }
+    }
+  }
+}

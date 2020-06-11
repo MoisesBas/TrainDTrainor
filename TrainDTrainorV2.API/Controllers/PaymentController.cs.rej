@@ -1,0 +1,22 @@
+diff a/API/TrainDTrainorV2.API/Controllers/PaymentController.cs b/API/TrainDTrainorV2.API/Controllers/PaymentController.cs	(rejected hunks)
+@@ -108,5 +108,19 @@
+             var result = await Mediator.Send(command, cancellationToken).ConfigureAwait(false);
+             return ObjectResult(result, StatusCodes.Status200OK);
+         }
++
++        [HttpGet("getpaymentByuserId")]
++        [ProducesResponseType(typeof(EntitySingleResult<PaymentReadModel>), 200)]
++        public async Task<IActionResult> GetPaymentByuserId(CancellationToken cancellationToken,Guid userProfileId)
++                    {
++            var search = Query<PaymentTransaction>.Create(x => x.UserProfileId == userProfileId);
++            var query = new SingleQuery<PaymentTransaction>(search);            
++            var readModel = await FirstOrDefaultQuery(query, cancellationToken).ConfigureAwait(false);
++            return new OkObjectResult(new
++            {
++                Data = readModel,
++                Status = StatusCodes.Status200OK
++            });
++        }
+     }
+ }
+\ No newline at end of file

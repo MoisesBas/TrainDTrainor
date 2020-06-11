@@ -1,0 +1,21 @@
+[
+  {
+    "Id": "15687407-E3E8-E811-9D73-F8DA0C540EE6",
+    "EmailAddress": "training@mobadrah.ae",
+    "UserId": "14687407-E3E8-E811-9D73-F8DA0C540EE6",
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
+    "Browser": "Chrome",
+    "OperatingSystem": "Windows 10",
+    "DeviceFamily": "Other",
+    "DeviceBrand": "",
+    "DeviceModel": "",
+    "IpAddress": "::1",
+    "IsSuccessful": 1,
+    "FailureMessage": "NULL",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 14:30:46.7839312 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 14:30:46.7840173 +00:00",
+    "UpdatedBy": "NULL"    
+  }
+]

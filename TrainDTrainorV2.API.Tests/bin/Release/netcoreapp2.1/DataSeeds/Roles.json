@@ -1,0 +1,43 @@
+[
+  {
+    "Id": "5F3C8FFD-A1E8-E811-9D73-F8DA0C540EE6",
+    "Name": "Administrator",
+    "Description": "System Administrator",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:45:07.0326214 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 06:45:07.0326320 +00:00",
+    "UpdatedBy": "NULL"   
+  },
+  {
+    "Id": "A45F970B-A2E8-E811-9D73-F8DA0C540EE6",
+    "Name": "Trainor",
+    "Description": "System Trainor",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:45:30.9393588 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 06:45:30.9393598 +00:00",
+    "UpdatedBy": "NULL"
+    
+  },
+  {
+    "Id": "2395101B-A2E8-E811-9D73-F8DA0C540EE6",
+    "Name": "Evaluator",
+    "Description": "System Evaluator",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:45:57.0266523 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 06:45:57.0266531 +00:00",
+    "UpdatedBy": "NULL"   
+  },
+  {
+    "Id": "863B9525-A2E8-E811-9D73-F8DA0C540EE6",
+    "Name": "Trainee",
+    "Description": "System Evaluator",
+    "IsDeleted": 0,
+    "Created": "2018-11-15 06:46:14.6564475 +00:00",
+    "CreatedBy": "NULL",
+    "Updated": "2018-11-15 06:46:14.6564483 +00:00",
+    "UpdatedBy": "NULL"   
+  }
+]
